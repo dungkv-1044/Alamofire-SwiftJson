@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7AE615FD36BE0FE2C16AA297 /* Pods_AlamofireDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A427A5E9D4F3B9BB99EF0AC /* Pods_AlamofireDemo.framework */; };
+		C42D1D8B1F4D1C3500A75740 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D1D8A1F4D1C3500A75740 /* DataServices.swift */; };
+		C42D1D8D1F4D1CE800A75740 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D1D8C1F4D1CE800A75740 /* People.swift */; };
+		C42D1D8F1F4D1D3700A75740 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D1D8E1F4D1D3700A75740 /* Phone.swift */; };
+		C42D1D911F4D214500A75740 /* NotificationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42D1D901F4D214500A75740 /* NotificationKey.swift */; };
 		C457DBF51F4AAEAC00893DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457DBF41F4AAEAC00893DCF /* AppDelegate.swift */; };
 		C457DBF71F4AAEAC00893DCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457DBF61F4AAEAC00893DCF /* ViewController.swift */; };
 		C457DBFA1F4AAEAC00893DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C457DBF81F4AAEAC00893DCF /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		C457DBFF1F4AAEAC00893DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C457DBFD1F4AAEAC00893DCF /* LaunchScreen.storyboard */; };
 		C457DC0A1F4AAEAD00893DCF /* AlamofireDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457DC091F4AAEAD00893DCF /* AlamofireDemoTests.swift */; };
 		C457DC151F4AAEAD00893DCF /* AlamofireDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457DC141F4AAEAD00893DCF /* AlamofireDemoUITests.swift */; };
+		C4EC28FD1F4BEC08004C387A /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C4EC28FC1F4BEC08004C387A /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,10 @@
 		4B67A7CE04EEB1247F349FBE /* Pods-AlamofireDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5A427A5E9D4F3B9BB99EF0AC /* Pods_AlamofireDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E6820B46A9B89933D47BB5 /* Pods-AlamofireDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C42D1D8A1F4D1C3500A75740 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		C42D1D8C1F4D1CE800A75740 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		C42D1D8E1F4D1D3700A75740 /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		C42D1D901F4D214500A75740 /* NotificationKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationKey.swift; sourceTree = "<group>"; };
 		C457DBF11F4AAEAC00893DCF /* AlamofireDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C457DBF41F4AAEAC00893DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C457DBF61F4AAEAC00893DCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 		C457DC101F4AAEAD00893DCF /* AlamofireDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamofireDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C457DC141F4AAEAD00893DCF /* AlamofireDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireDemoUITests.swift; sourceTree = "<group>"; };
 		C457DC161F4AAEAD00893DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EC28FC1F4BEC08004C387A /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		C457DBE81F4AAEAC00893DCF = {
 			isa = PBXGroup;
 			children = (
+				C4EC28FC1F4BEC08004C387A /* .swiftlint.yml */,
 				C457DBF31F4AAEAC00893DCF /* AlamofireDemo */,
 				C457DC081F4AAEAD00893DCF /* AlamofireDemoTests */,
 				C457DC131F4AAEAD00893DCF /* AlamofireDemoUITests */,
@@ -127,6 +138,10 @@
 				C457DBFB1F4AAEAC00893DCF /* Assets.xcassets */,
 				C457DBFD1F4AAEAC00893DCF /* LaunchScreen.storyboard */,
 				C457DC001F4AAEAC00893DCF /* Info.plist */,
+				C42D1D8A1F4D1C3500A75740 /* DataServices.swift */,
+				C42D1D8C1F4D1CE800A75740 /* People.swift */,
+				C42D1D8E1F4D1D3700A75740 /* Phone.swift */,
+				C42D1D901F4D214500A75740 /* NotificationKey.swift */,
 			);
 			path = AlamofireDemo;
 			sourceTree = "<group>";
@@ -162,6 +177,7 @@
 				C457DBEF1F4AAEAC00893DCF /* Resources */,
 				DFA230E909F8651D5C3B0875 /* [CP] Embed Pods Frameworks */,
 				881FF688F8C42385720FC639 /* [CP] Copy Pods Resources */,
+				C4EC28F91F4BE8A5004C387A /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -259,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4EC28FD1F4BEC08004C387A /* .swiftlint.yml in Resources */,
 				C457DBFF1F4AAEAC00893DCF /* LaunchScreen.storyboard in Resources */,
 				C457DBFC1F4AAEAC00893DCF /* Assets.xcassets in Resources */,
 				C457DBFA1F4AAEAC00893DCF /* Main.storyboard in Resources */,
@@ -297,6 +314,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C4EC28F91F4BE8A5004C387A /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
 		DA56031AF35FC8B9120F014E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,6 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42D1D8F1F4D1D3700A75740 /* Phone.swift in Sources */,
+				C42D1D8D1F4D1CE800A75740 /* People.swift in Sources */,
+				C42D1D911F4D214500A75740 /* NotificationKey.swift in Sources */,
+				C42D1D8B1F4D1C3500A75740 /* DataServices.swift in Sources */,
 				C457DBF71F4AAEAC00893DCF /* ViewController.swift in Sources */,
 				C457DBF51F4AAEAC00893DCF /* AppDelegate.swift in Sources */,
 			);
@@ -580,6 +615,7 @@
 				C457DC1B1F4AAEAD00893DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C457DC1C1F4AAEAD00893DCF /* Build configuration list for PBXNativeTarget "AlamofireDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +624,7 @@
 				C457DC1E1F4AAEAD00893DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C457DC1F1F4AAEAD00893DCF /* Build configuration list for PBXNativeTarget "AlamofireDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +633,7 @@
 				C457DC211F4AAEAD00893DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
